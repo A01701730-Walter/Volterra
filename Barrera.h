@@ -2,7 +2,7 @@
 Proyecto Volterra
 Walter Humphrey
 A01701730
-03/12/2019
+05/12/2019
 */
 
 #pragma once
@@ -35,7 +35,7 @@ public:
 	void set_tipo(string type) {
 		tipo = type;
 	}
-	void daño_resistencia(int daño) {
-		resistencia = resistencia - daño;
+	void danio_resistencia(int danio) {
+		resistencia = resistencia - danio;
 	}
 };

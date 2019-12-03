@@ -2,7 +2,7 @@
 Proyecto Volterra
 Walter Humphrey
 A01701730
-03/12/2019
+05/12/2019
 */
 
 #pragma once
@@ -46,7 +46,7 @@ public:
 	}
 	// Funcion de atacar a la barrera que usaran todos los personajes
 	void ataca_barrera(Barrera &b) {
-		b.daño_resistencia(ataque);
+		b.danio_resistencia(ataque);
 	}
 };
 
